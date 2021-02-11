@@ -6,6 +6,8 @@ Infos are provided by the `frames.jsonl` file.
 
 ## To test
 
+Start with a `yarn` to install deps.
+
 You can build the app with `yarn build`.
 
 Open it in your browser with `serve -s build` (need to have `serve` installed) or `npx serve -s build`.
