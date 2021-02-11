@@ -1,0 +1,48 @@
+@import '../../colors.scss';
+
+.players {
+  width: 100%;
+  margin-top: 44px;
+  margin-bottom: 32px;
+}
+
+.columns {
+  display: flex;
+  flex: 1;
+}
+
+.column {
+  display: flex;
+  flex: 5;
+  flex-direction: column;
+
+  div {
+    height: 32px;
+    display: flex;
+    margin-bottom: 2px;
+    align-items: center;
+    flex: 1;
+
+    > img {
+      height: 32px;
+      width: 32px;
+      margin-right: 8px;
+    }
+
+    > span {
+      display: flex;
+      flex: 1;
+    }
+
+    :first-child {
+      max-width: 32px;
+      min-width: 32px;
+    }
+  }
+}
+.border {
+  border-right: 1px solid $lavenderWeb;
+}
+.ml16 {
+  margin-left: 16px;
+}

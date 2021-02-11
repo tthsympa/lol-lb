@@ -1,0 +1,13 @@
+@import '../../colors.scss';
+
+.teams {
+  display: flex;
+  align-items: center;
+}
+
+.vs {
+  font-size: 14px;
+  line-height: 19px;
+  color: $jet;
+  margin: 0 27px;
+}

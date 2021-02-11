@@ -1,0 +1,47 @@
+@import '../../colors.scss';
+
+.box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 214px;
+  height: 35px;
+  background-color: $ghostWhite;
+  border-radius: 0px 3px 3px 0px;
+}
+.boxReversed {
+  border-radius: 3px 0px 0px 3px;
+}
+
+.name {
+  color: $jet;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  width: 100%;
+  text-align: right;
+  margin-right: 62px;
+}
+.nameReversed {
+  text-align: left;
+  margin-left: 62px;
+  margin-right: 0;
+}
+
+.image {
+  position: absolute;
+  right: 0;
+  height: 35px;
+  width: 42px;
+  border-radius: 0px 3px 3px 0px;
+  background-color: $lavenderWeb;
+  text-align: center;
+}
+.imageReversed {
+  right: unset;
+  left: 0;
+  border-radius: 3px 0px 0px 3px;
+}
